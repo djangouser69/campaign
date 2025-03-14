@@ -23,6 +23,12 @@
     /* padding: 0;
     margin: 0; */
   }
+  :global(.wrapper) {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
   nav {
     display: flex;
     flex-direction: row;
@@ -46,5 +52,12 @@
     flex-direction: column;
     padding: 1rem;
     margin: 0;
+  }
+  @media (max-width: 900px) {
+    nav {
+      a {
+        font-size: 1.4rem;
+      }
+    }
   }
 </style>
