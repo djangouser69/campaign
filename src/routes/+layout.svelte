@@ -53,7 +53,7 @@
     padding: 1rem;
     margin: 0;
   }
-  @media (max-width: 900px) {
+  @media (min-width: 900px) {
     nav {
       a {
         font-size: 1.4rem;
